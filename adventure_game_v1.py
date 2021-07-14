@@ -62,7 +62,8 @@ def go_florest(equipment):
         print_slow("You seat and wait about 5 hours and nothing happens.")
         print_slow(
             "And sudenly you see those red away get closer to you")
-        print_slow("and you start to listen 'I'm gonna kill you!!' coming to you")
+        print_slow("and you start to listen 'I'm gonna kill",
+                   " you!!' coming to you")
         gofight_seat(equipment)
     elif "village" in response:
         print_slow("You go back to the south entrance of the village")
@@ -113,7 +114,8 @@ def gofight_seat(equipment):
         print_slow("When he notice you he immediately cast some")
         print_slow("powerfull eletric bolt in you direction.")
         print_slow("Your magic shield starts to shine and you feel it's power")
-        print_slow("You act fast and reflect the magic to him with your shield.")
+        print_slow("You act fast and reflect the magic to",
+                   " him with your shield.")
         print_slow("He gets hit and fallback looking like dead.")
         print_slow("As you get closer to his body your sword starts to shine.")
         print_slow("You hear a voice whispers in your mind")
@@ -137,13 +139,16 @@ def gofight_seat(equipment):
 
 def go_fight(equipment):
     if "MAGIC SWORD" and "MAGIC SHIELD" in equipment:
-        print_slow("You get closer to the eyes and you hear a some weird sounds")
+        print_slow("You get closer to the eyes and hear a some weird sounds")
         print_slow("you can now see his shape and how scary he looks.")
-        print_slow("You notice that he has some eletricity aura around his hand.")
+        print_slow("You notice that he has some",
+                   "eletricity aura around his hand.")
         print_slow("When he notice you he immediately cast some")
         print_slow("powerfull eletric bolt in you direction.")
-        print_slow("Your magic shield starts to shine and you feel it's power")
-        print_slow("You act fast and reflect the magic to him with your shield.")
+        print_slow("Your magic shield starts to shine",
+                   "and you feel it's power")
+        print_slow("You act fast and reflect the",
+                   "magic to him with your shield.")
         print_slow("He gets hit and fallback looking like dead.")
         print_slow("As you get closer to his body your sword starts to shine.")
         print_slow("You hear a voice whispers in your mind")
@@ -185,7 +190,8 @@ def play_again():
 
 def end_game():
     print_slow(
-        "Nice to have you here, come back whenever you want to play the Adventure game")
+        "Nice to have you here, come back whenever",
+        "you want to play the Adventure game")
 
 
 def play_game():
