@@ -7,12 +7,6 @@ def print_pause(message, delay=0):
     time.sleep(delay)
 
 
-# def text_color(message, color, background=False):
-#    soc = '\33[48;5;' if background else '\33[38;5;'
-#    eoc = '\033[0m'
-#    return f"{soc}{color}m{message}{eoc}"
-
-
 def valid_input(prompt, options):
     while True:
         option = input(prompt).lower()
