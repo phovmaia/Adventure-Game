@@ -134,7 +134,8 @@ def go_fight_seat(equipment):
                     " and end all the curses", 2)
         print_pause("You get you sword and stick into his heart"
                     " his body immediately turns into dust"
-                    " and a good energy starts to take control of the place.", 2)
+                    " and a good energy starts to take "
+                    "control of the place.", 2)
         get_bounty()
     else:
         print_pause("When he notice you he immediately cast some"
@@ -168,7 +169,8 @@ def go_fight(equipment):
                     " and end all the curses", 2)
         print_pause("You get you sword and stick into his heart"
                     "his body immediately turns into dust"
-                    "and a good energy starts to take control of the place.", 2)
+                    "and a good energy starts to take control "
+                    "of the place.", 2)
         get_bounty()
     else:
         print_pause("When he notice you he immediately cast some"
